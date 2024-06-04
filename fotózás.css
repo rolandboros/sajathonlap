@@ -1,0 +1,58 @@
+.allokepek {
+    height:400px;
+}
+
+.fekvokepek{
+    height: 400px;
+    margin-top: 70px;
+}
+.container{
+    
+    display: flex;
+    justify-content:space-between;
+    margin-left: 30px;
+    margin-right:30px;
+    margin-top:40px;
+    flex-wrap: wrap;
+}
+
+figcaption {
+    text-align: center;
+    size: 20px;
+    font-family:'Courier New', Courier, monospace ;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.h1 {
+    margin:30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+}
+
+.alsoflexbox {
+    display: flex;
+    justify-content:space-evenly;
+    font-family: "Freeman", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  margin-top:120px;
+  margin-bottom: 80px;
+
+  }
+
+  .kezdo {
+    font-family: "Freeman", sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+
+  }
+
+
+

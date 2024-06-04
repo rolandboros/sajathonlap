@@ -1,0 +1,79 @@
+.body {
+  margin-top:0pt;
+  margin-left:0pt;
+  margin-right:0pt;
+  margin-bottom:0pt;
+}
+
+.gta {
+   background-image: url('logos/GTA3_Artwork.jpg');
+   
+   background-position:center;
+                                               
+}
+
+.item {
+    font-family: "Freeman", sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  color: rgb(2, 1, 0);
+  margin-top: 30px;
+}
+
+.gta3 {
+  position: relative;
+  left: 600px;
+  top:200px;
+  color:rgb(0, 0, 0);
+  font-family: 'Pricedown Bl', sans-serif;  
+  font-size:60px;
+  text-shadow: 20px;
+  width: 200px;
+  display:block;
+}
+
+.gtavicecity {
+  position: relative;
+  left: 110px;
+  top: -70px;
+  color: rgb(221, 71, 221);
+  font-family: 'Rage Italic', sans-serif;
+  font-size: 90px;
+  width: 200px;
+  display: block;
+}
+
+.gtasanandreas {
+  position:relative;
+  left: 1000px;
+  bottom:300px;
+  font-family: 'Beckett', sans-serif;
+  font-size: 80px;
+  color:black;
+  width: 200px;
+  display:block;
+
+}
+
+.alsoflexbox {
+  display: flex;
+  justify-content:space-evenly;
+  font-family: "Freeman", sans-serif;
+font-weight: 800;
+font-size: 32px;
+margin-bottom: 100px;
+background-color:grey;
+border-radius: 30px;
+}
+
+.kezdo {
+  font-family: "Freeman", sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
