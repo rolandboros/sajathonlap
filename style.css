@@ -29,6 +29,8 @@
   color: black;
 }
 
+
+
 .kozepe {
 grid-area: 2 / 2 / 4 / 3;
 margin:auto;
@@ -41,3 +43,21 @@ text-align: center;
     display: block;
 }
 
+@media (max-width: 768px) 
+{
+  
+    .container {
+        display: grid;
+        grid-template-columns:100%;
+        grid-template-rows:auto;
+        text-align: center;}
+
+    .kozepe {
+            display:none;
+            }
+
+    .kozep{
+            text-align: center;
+            display:block;
+            }
+    }

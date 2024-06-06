@@ -3,17 +3,18 @@
   margin-left:0pt;
   margin-right:0pt;
   margin-bottom:0pt;
+ 
 }
 
 .gta {
    background-image: url('logos/GTA3_Artwork.jpg');
-   
    background-position:center;
+   
                                                
 }
 
 .item {
-    font-family: "Freeman", sans-serif;
+  font-family: "Freeman", sans-serif;
   font-weight: 800;
   font-size: 2rem;
   color: rgb(2, 1, 0);
@@ -22,48 +23,49 @@
 
 .gta3 {
   position: relative;
-  left: 600px;
+  left: 400px;
   top:200px;
   color:rgb(0, 0, 0);
   font-family: 'Pricedown Bl', sans-serif;  
   font-size:60px;
-  text-shadow: 20px;
-  width: 200px;
+
   display:block;
 }
 
 .gtavicecity {
   position: relative;
-  left: 110px;
+  left: 30px;
   top: -70px;
   color: rgb(221, 71, 221);
   font-family: 'Rage Italic', sans-serif;
   font-size: 90px;
-  width: 200px;
+
   display: block;
 }
 
 .gtasanandreas {
   position:relative;
-  left: 1000px;
-  bottom:300px;
+  left: 800px;
+  bottom:200px;
   font-family: 'Beckett', sans-serif;
   font-size: 80px;
   color:black;
-  width: 200px;
+
   display:block;
 
 }
 
 .alsoflexbox {
   display: flex;
-  justify-content:space-evenly;
+  justify-content:space-around;
   font-family: "Freeman", sans-serif;
-font-weight: 800;
-font-size: 32px;
-margin-bottom: 100px;
-background-color:grey;
-border-radius: 30px;
+  font-weight: 800;
+  font-size: 32px;
+  margin-top: 300px;
+  margin-bottom: 30px;
+  background-color:grey;
+  border-radius: 30px;
+  flex-wrap:wrap;
 }
 
 .kezdo {
@@ -77,3 +79,53 @@ border-radius: 30px;
   margin-bottom: 50px;
 
 }
+
+@media (max-width: 768px)
+{
+  .container {
+    display: grid;
+    grid-template-columns:100%;
+    grid-template-rows:auto;
+    text-align: center;
+  }
+  .gta3 {
+    position: relative;
+    left: 0px;
+    top: 40px;
+    color:rgb(0, 0, 0);
+    font-family: 'Pricedown Bl', sans-serif;  
+    font-size:60px;
+    
+    display:block;
+  }
+  
+  .gtavicecity {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: rgb(221, 71, 221);
+    font-family: 'Rage Italic', sans-serif;
+    font-size: 90px;
+   
+    display: block;
+    
+  }
+  
+  .gtasanandreas {
+    position:relative;
+    left: 0px;
+    bottom:0px;
+    font-family: 'Beckett', sans-serif;
+    font-size: 80px;
+    color:black;
+    
+    display:block;
+  
+  }
+
+
+
+
+  }
+    
+  
