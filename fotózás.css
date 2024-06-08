@@ -1,17 +1,21 @@
+
+.body {width:100vh;}
+
 .allokepek {
     height:400px;
 }
 
 .fekvokepek{
+
     height: 400px;
     margin-top: 70px;
 }
 .container{
     
     display: flex;
-    justify-content:space-between;
-    margin-left: 30px;
-    margin-right:30px;
+    justify-content:center;
+   
+
     margin-top:40px;
     flex-wrap: wrap;
 }
@@ -39,6 +43,7 @@ figcaption {
   font-size: 32px;
   margin-top:120px;
   margin-bottom: 80px;
+  flex-wrap: wrap;
 
   }
 
@@ -54,5 +59,26 @@ figcaption {
 
   }
 
+  .utolso {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
 
 
+
+
+  @media (max-width: 768px){
+
+   
+
+
+   
+  .container{
+    display:block;
+    text-align: center;}
+  }
+
+  
+
+  

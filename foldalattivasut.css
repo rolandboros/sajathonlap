@@ -1,0 +1,60 @@
+
+
+.cim {
+    font-family:'Freeman', sans-serif;
+    font-size: 25pt;
+    margin:10px;
+    text-align: center;
+}
+
+img {
+    float:left;
+    height: 300px;
+    
+    margin:15px;
+}
+
+.text {
+   font-family:'Times New Roman', Times, serif,;
+   font-size: 18pt;
+   
+}
+
+#kep2 {
+    float:right;
+}
+
+#kep3{
+    float:left
+}
+
+ @media (max-width:768px)
+{
+ img {
+    display:block;
+    text-align: center;}
+ }
+ 
+ .alsoflexbox {
+    display: flex;
+    justify-content:space-evenly;
+    font-family: "Freeman", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  margin-top:120px;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+
+  }
+
+  .kezdo {
+    font-family: "Freeman", sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+
+  }
