@@ -7,8 +7,7 @@ margin:12px;
 p {
     font-family:'Times New Roman', Times, serif;
     font-size: 20pt;
-    margin-left: 70px;
-    margin-right:70px;
+
 
 }
 
@@ -70,24 +69,18 @@ p {
 
     .img2 {
         display: block;
-    margin-left:auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align:center;
-    width:300px;
-    height: auto;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align:center;
+        width:300px;
+        height: auto;
     float:none;
     }
     .szoveg {
      text-align: justify;
     }
 
-    
-}
-
-
-
-
 p {text-align: justify;
-}
+}}
