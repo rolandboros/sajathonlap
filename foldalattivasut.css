@@ -20,20 +20,15 @@ img {
    
 }
 
-#kep2 {
+.kep2 {
     float:right;
 }
 
-#kep3{
+.kep3{
     float:left
 }
 
- @media (max-width:768px)
-{
- img {
-    display:block;
-    text-align: center;}
- }
+ 
  
  .alsoflexbox {
     display: flex;
@@ -58,3 +53,26 @@ img {
     margin-bottom: 50px;
 
   }
+
+  @media (max-width:768px)
+{
+    .text {
+        text-align:justify;
+    }
+
+ img {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align:center;
+    float:none;}
+
+.kep2 {
+    float:none;
+}
+
+.kep3 {
+    float:none;
+}}

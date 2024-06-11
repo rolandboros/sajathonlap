@@ -52,3 +52,37 @@ p {
     margin-bottom: 50px;
 
   }
+
+  @media (max-width: 768px){
+
+
+    .img1 {
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align:center;
+        float: none;     
+    }
+
+    .img2 {
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align:center;
+        float: none;
+        
+    }
+    .szoveg {
+     text-align: center;
+    }
+}
+
+
+
+
+p {text-align: justify;
+}
