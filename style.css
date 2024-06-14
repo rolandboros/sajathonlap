@@ -50,8 +50,7 @@ width: 100%;
 {
   
     .container {
-
-        grid-template-rows:auto;
+        display: block;
         text-align: center;}
 
     .kozepe {
