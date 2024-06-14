@@ -6,7 +6,9 @@ margin:12px;
 
 p {
     font-family:'Times New Roman', Times, serif;
-    font-size: 20pt;
+    font-size: 12pt;
+    margin-left:5px;
+    margin-right: 5px;
 
 
 }
